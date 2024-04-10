@@ -12,11 +12,24 @@
         <div class="text-center">
             <img id="fcc-logo" src="./img/fcc-logo.svg" alt="FreeCodeCamp">
             <h1>Check if your word is a palindrome.</h1>
-            <input type="text" name="text-input" id="text-input" class="mb-3 form-control form-control-lg" aria-label="Enter your palindrome here.">
-            <button id="check-button">Check if Palindrome</button>
-            <div id="result"></div>
+            <div class="container d-flex justify-content-center align-items-center">
+                <p id="explanation">
+                    A palindrome is a word, number, phrase, or other sequence of symbols
+                     that reads the same backwards as forwards, such as madam or racecar.
+                </p>
+            </div>
+            <form id = "palindrome-form">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <input type="text" name="text-input" id="text-input" class="mt-3 mb-3 form-control form-control-lg" aria-label="Enter your palindrome here.">
+                </div>
+                <input type="submit" id="check-btn" class="btn btn-lg">
+            </form>
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="mt-3 hide" id="result"></div>
+            </div>
         </div>
       </div>
+<script src="scripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

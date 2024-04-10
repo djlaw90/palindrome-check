@@ -7,13 +7,22 @@ body {
     color: #A3FFD6;
 }
 
-#check-button {
+#check-btn {
     color: #1C1678;
     background-color: #7BC9FF;
 }
 
-#text-input {
+#explanation, #result {
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #8576FF;
+    color: #1C1678;
+    border-radius: 10px;
+}
 
+#text-input {
+    width: 500px;
 }
 
 #fcc-logo {
@@ -22,4 +31,8 @@ body {
 
 .center-content {
     min-height: 80vh; /* Ensure full viewport height */
+}
+
+.hide {
+    display: none;
 }
