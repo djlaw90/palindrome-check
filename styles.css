@@ -1,0 +1,25 @@
+
+/* Palette */
+/* #1C1678 #8576FF #7BC9FF #A3FFD6 */
+
+body {
+    background-color: #1C1678;
+    color: #A3FFD6;
+}
+
+#check-button {
+    color: #1C1678;
+    background-color: #7BC9FF;
+}
+
+#text-input {
+
+}
+
+#fcc-logo {
+    width: 250px;
+}
+
+.center-content {
+    min-height: 80vh; /* Ensure full viewport height */
+}
