@@ -17,8 +17,16 @@ body {
     padding: 10px;
     font-weight: bold;
     background-color: #8576FF;
-    color: #1C1678;
+    border: 5px solid #7BC9FF;
+    color: #A3FFD6;
     border-radius: 10px;
+}
+
+footer {
+    background-color: #8576FF;
+    position:fixed;
+    bottom:0;
+    width: 100%;
 }
 
 #text-input {
